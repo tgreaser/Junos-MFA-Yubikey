@@ -1,18 +1,19 @@
 # Junos-MFA-Yubikey AAL2 maybe even AAL3
-MFA to Junos
+DRAFT MFA to Junos
 AAL2 A standard for authentication assurance that requires the claimant to control two different authentication factors.
 5.2.2 Rate Limiting/Throttling using Junos OS. 
 Day off so putting in a bummper crop to document howto.(remove when I have worked out with tac the feature requests)
 
 This is a day 0 on how to start on getting NIST Authenticator Assurance Level 2 (AAL2). Once I have some stuff better honed in I will updated .
 **ER in to Juniper on getting this docmuented . If like normal the request goes to /dev/null.. This is my way. 
-This ONLY works as of I know of on x86 platforms. I have tested on my SRX340, EX4100 and have failed.
-Im waitng on some gear from account team :) ...  Qfx 5120s, MX301*wish list , 
+This ONLY works as of I know of on x86 platforms. I have tested on my SRX340, EX4100 and have failed. Working with JTAC to verify this is not compiled into arm boxes 
 
+Im waitng on some gear from account team :) ...  Qfx 5120s, MX301*wish list , 
+My home lab has SRX340, EX4100 and EX4400 . 
 Model: ex4400-24mp
 Junos: 25.2R1-S1.4
 
-Model: ex4600 **waiting on getting one to finish this and other labs 
+Model: ex4600 **waiting on getting one to finish this and other labs (I LOVE ISSU on this box)  
 Model: Qfx-5120(32 or Y) **waiting on getting one to finish this and other labs 
 
 ## Goal meet or exceed AAL2 requirements 
@@ -24,11 +25,11 @@ https://pages.nist.gov/800-63-3/sp800-63b.html#63bSec4-Table1
 https://pages.nist.gov/800-63-3/sp800-63b.html#t10-1
 
 ##  5.2.2
-reauthentication du to user inactivkty set system login class super-user-local idle-timeout 10
+reauthentication do to user inactivity    "set system login class super-user-local idle-timeout 10"
 fixed perodic reauthetication . IIRC that was just checking tacacs if the user account was still in good standings still matched current passwd.
-set system tacplus-options authorization-time interval 10
-system login retry-options lockout-period 10
-provsion for tech assiistance. ONLY idea i can think of is access-ing a on prem linux jump box.  
+"set system tacplus-options authorization-time interval 10"
+"set system login retry-options lockout-period 10"
+provsion for tech assiistance. For now.. thinking of is access-ing a on prem linux jump box via say Cockpit using OTP from my own google authenticaor  :)   
 
 https://pages.nist.gov/800-63-3/sp800-63b.html#t10-1
 
