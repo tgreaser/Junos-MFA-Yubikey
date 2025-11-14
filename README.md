@@ -9,7 +9,7 @@ This is a day 0 on how to start on getting NIST Authenticator Assurance Level 2 
 
 Im waiting to see if I can get some  on some gear from account team :) ...  Qfx 5120s, MX301*wish list <br>
 
-My home lab has SRX340, EX4100 and EX4400 
+My home lab has SRX340, EX4100 and EX4400 <br>
 Model: ex4400-24mp  Junos: 25.2R1-S1.4 <br>
 Model: ex4100-f-24t Junos: 25.2R1-S1.4 <br>
 Model: ex9214     Junos: 25.2R1-9 <br>
