@@ -1,20 +1,20 @@
 # Junos-MFA-Yubikey AAL2 maybe even AAL3
 DRAFT MFA to Junos
 AAL2 A standard for authentication assurance that requires the claimant to control two different authentication factors.
-5.2.2 Rate Limiting/Throttling using Junos OS. 
-Day off so putting in a bummper crop to document howto.(remove when I have worked out with tac the feature requests)
+5.2.2 Rate Limiting/Throttling using Junos OS. <br>
+Day off so putting in a bummper crop to document howto.(remove when I have worked out with tac the feature requests)<br>
 
-This is a day 0 on how to start on getting NIST Authenticator Assurance Level 2 (AAL2). Once I have some stuff better honed in I will updated .
-**ER in to Juniper on getting this docmuented . If like normal the request goes to /dev/null.. This is my way. 
-This ONLY works as of I know of on x86 platforms. I have tested on my SRX340, EX4100 and have failed. Working with JTAC to verify this is not compiled into arm boxes 
+This is a day 0 on how to start on getting NIST Authenticator Assurance Level 2 (AAL2). Once I have some stuff better honed in I will updated .<br>
+**ER in to Juniper on getting this docmuented . If like normal the request goes to /dev/null.. This is my way. <br>
+This ONLY works as of I know of on x86 platforms. I have tested on my SRX340, EX4100 and have failed. Working with JTAC to verify this is not compiled into arm boxes <br>
 
-Im waiting to see if I can get some  on some gear from account team :) ...  Qfx 5120s, MX301*wish list , 
+Im waiting to see if I can get some  on some gear from account team :) ...  Qfx 5120s, MX301*wish list <br>
 
 My home lab has SRX340, EX4100 and EX4400 
-Model: ex4400-24mp  Junos: 25.2R1-S1.4 
-Model: ex4100-f-24t Junos: 25.2R1-S1.4
-Model: ex9214     Junos: 25.2R1-9
-Model: ex4600 **waiting on getting one to finish this and other evpn vxlan labs  
+Model: ex4400-24mp  Junos: 25.2R1-S1.4 <br>
+Model: ex4100-f-24t Junos: 25.2R1-S1.4 <br>
+Model: ex9214     Junos: 25.2R1-9 <br>
+Model: ex4600 **waiting on getting one to finish this and other evpn vxlan labs  <br>
 
 Fedora 42 workstaiton x86 
 Yubico  Multi-factor authentication (MFA) Security Key, Connect via USB-A FIDO Certified 
