@@ -8,13 +8,14 @@ This is a day 0 on how to start on getting NIST Authenticator Assurance Level 2 
 **ER in to Juniper on getting this docmuented . If like normal the request goes to /dev/null.. This is my way. 
 This ONLY works as of I know of on x86 platforms. I have tested on my SRX340, EX4100 and have failed. Working with JTAC to verify this is not compiled into arm boxes 
 
-Im waitng on some gear from account team :) ...  Qfx 5120s, MX301*wish list , 
-My home lab has SRX340, EX4100 and EX4400 . 
+Im waiting to see if I can get some  on some gear from account team :) ...  Qfx 5120s, MX301*wish list , 
+
+My home lab has SRX340, EX4100 and EX4400 
 Model: ex4400-24mp  Junos: 25.2R1-S1.4 
 Model: ex4100-f-24t Junos: 25.2R1-S1.4
 Model: ex9214     Junos: 25.2R1-9
-Model: ex4600 **waiting on getting one to finish this and other labs (I LOVE ISSU on this box)  
-Model: Qfx-5120(32 or Y) **waiting on getting one to finish this and other labs 
+Model: ex4600 **waiting on getting one to finish this and other evpn vxlan labs  
+
 Fedora 42 workstaiton x86 
 Yubico  Multi-factor authentication (MFA) Security Key, Connect via USB-A FIDO Certified 
 ## Goal meet or exceed AAL2 requirements 
