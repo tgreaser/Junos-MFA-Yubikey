@@ -6,7 +6,6 @@ Day off so putting in a bummper crop to document howto.(remove when I have worke
 
 This is a day 0 on how to start on getting NIST Authenticator Assurance Level 2 (AAL2). Once I have some stuff better honed in I will updated .<br>
 **ER in to Juniper on getting this docmuented . If like normal the request goes to /dev/null.. This is my way. <br>
-This ONLY works as of I know of on x86 platforms. I have tested on my SRX340, EX4100 and have failed. Working with JTAC to verify this is not compiled into arm boxes <br>
 
 Im waiting to see if I can get some  on some gear from account team :) ...  Qfx 5120s, MX301*wish list <br>
 
@@ -16,8 +15,8 @@ Model: ex4100-f-24t Junos: 25.2R1-S1.4 <br>
 Model: ex9214     Junos: 25.2R1-9 <br>
 Model: ex4600 **waiting on getting one to finish this and other evpn vxlan labs  <br>
 
-Fedora 42 workstaiton x86 
-Yubico  Multi-factor authentication (MFA) Security Key, Connect via USB-A FIDO Certified 
+Fedora 42 workstaiton x86 <br>
+Yubico  Multi-factor authentication (MFA) Security Key, Connect via USB-A FIDO Certified <br>
 ## Goal meet or exceed AAL2 requirements 
 Requirements: You must prove control of two factors, such as a physical authenticator (like a hardware token YubiKey )and a memorized secret (like a password PIN for ED25519-SK key and maybe the passphrase ), or a physical authenticator and a biometric factor.I dont have a biometric reader and honestly as oftern as I mess up my fingers it would not work for me and my lifestyle.
 Purpose: To provide a high level of confidence in the control of user accounts by preventing single points of failure from compromised passwords
