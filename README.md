@@ -13,7 +13,7 @@ My home lab has SRX340, EX4100 and EX4400 <br>
 Model: ex4400-24mp  Junos: 25.2R1-S1.4 <br>
 Model: ex4100-f-24t Junos: 25.2R1-S1.4 <br>
 Model: ex9214     Junos: 25.2R1-9 <br>
-Model: SRX300s    Junos: 24.4R2-S4.12 <br>  23.4 and below  did not with 
+Model: SRX300s    Junos: 24.4R2-S4.12 <br>  23.4 and below did not work.
 Model: ex4600 **waiting on getting one to finish this and other evpn vxlan labs  <br>
 
 Fedora 42 workstaiton x86 <br>
